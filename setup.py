@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="nc2csv",
-    version="0.1.0",
+    version="0.1.1",
     description="Dump NetCDF file to CSV",
     author="Stefan Codrescu",
     author_email="ssmmcc1@gmail.com",
