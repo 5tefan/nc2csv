@@ -2,13 +2,12 @@ from setuptools import setup
 
 setup(
     name="nc2csv",
-    version="0.1.1",
+    version="0.1.2",
     description="Dump NetCDF file to CSV",
     author="Stefan Codrescu",
     author_email="ssmmcc1@gmail.com",
     url="https://github.com/5tefan/nc2csv",
-    py_modules=["nc2csv"],
-    include_package_data=True,
+    packages=["nc2csv"],
     install_requires=[
         "Click",
         "xarray",
