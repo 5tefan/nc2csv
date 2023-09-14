@@ -1,6 +1,6 @@
 import click
 
-from .nccsv import to_csv
+from .nc2csv import to_csv
 
 
 @click.command()

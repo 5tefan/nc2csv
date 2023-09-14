@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name="nccsv",
+    name="nc2csv",
     version="0.1.0",
     description="Dump NetCDF file to CSV",
     author="Stefan Codrescu",
     author_email="ssmmcc1@gmail.com",
-    url="https://github.com/5tefan/nccsv",
-    py_modules=["nccsv"],
+    url="https://github.com/5tefan/nc2csv",
+    py_modules=["nc2csv"],
     include_package_data=True,
     install_requires=[
         "Click",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "nccsv=nccsv.cli:cli",
+            "nc2csv=nc2csv.cli:cli",
         ],
     },
     classifiers=[

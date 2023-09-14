@@ -1,8 +1,8 @@
-# nccsv
+# nc2csv
 # 
 Dump NetCDF files to CSV.
 
-Frustrated by `ncdump`? Try `nccsv`!
+Frustrated by `ncdump`? Try `nc2csv`!
 - See your data in columns
 - Easily inspect values across variables
 
@@ -10,13 +10,13 @@ Frustrated by `ncdump`? Try `nccsv`!
 
 Save the csv to a file.
 ```bash
-nccsv file.nc > file.csv
+nc2csv file.nc > file.csv
 ```
 
 Consider using with the excellent `xsv` utility: https://github.com/martijn/xsv
 
 ```bash
-nccsv file.nc | xsv table | less -S
+nc2csv file.nc | xsv table | less -S
 ```
 
 Beautiful tables in your terminal!
